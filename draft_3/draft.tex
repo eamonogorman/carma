@@ -1,0 +1,222 @@
+\documentclass[manuscript]{aastex}
+
+\newcommand{\vdag}{(v)^\dagger}
+\newcommand{\myemail}{eogorma@tcd.ie}
+
+\shorttitle{The CO Shells of Betelgeuse}
+\shortauthors{O'Gorman et al.}
+
+\begin{document}
+
+\title{CO(J=2-1) Observations of the Circumstellar Envelope of Betelgeuse with CARMA}
+
+\author{Eamon O'Gorman and Graham M. Harper}
+\affil{School of Physics, Trinity College Dublin, Dublin 2, Ireland}
+\email{eogorma@tcd.ie}
+\email{graham.harper@tcd.ie}
+
+\author{Joanna M. Brown}
+\affil{Harvard-Smithsonian Center for Astrophysics, 60 Garden Street, \\ MS-78, Cambridge, MA 02138, USA}
+\email{jbrown@mpe.mpg.de}
+
+\and
+
+\author{Alexander Brown}
+\affil{Center for Astrophysics and Space Astronomy, University of Colorado, \\ 389 UCB, Boulder, CO 80309, USA}
+\email{alexander.brown@colorado.edu}
+
+\begin{abstract}
+We report the first radio interferometric observations of the 1.3 mm emission line of $\rm{{}^{12}}$C$\rm{{}^{16}}O$ in the circumstellar envelope of the M supergiant $\alpha$ Ori.  Observations are made with the CARMA interferometer in the C, D, and E antenna configurations. We obtain excellent  uv-coverage (6 - 27 k$\lambda$) by combining data from all three configurations allowing us to trace spatial scales from $0.8\arcsec$ to $4\arcsec$. The high spatial resolution C configuration map shows that the inner S1 shell has asymmetric outflow velocities of -10 km s${}^{-1}$ and +13 km s${}^{-1}$  with respect to the stellar rest frame. We find no evidence  for the outer S2 shell in this configuration and assume that this emission has been resolved out. The S2 shell appears as an extra blueshifted emission component in the D and E configuration maps between -10 km s${}^{-1}$  and -16 km s${}^{-1}$ but we see no trace of it in the redshifted velocity component and we conclude that the S2 shell is asymmetric in velocity space. A discrete off-source emission feature is detected at 5$\arcsec$ S-W of  $\alpha$ Ori in all D configuration maps. We image both shells in the combined map (all configurations) revealing their complex and irregular structure. We assign an average outer radius of 5$\arcsec$ to S1 and believe that S2 may extend beyond our field of view of 32$\arcsec$. 
+\end{abstract}
+
+%% Keywords should appear after the \end{abstract} command. The uncommented
+%% example has been keyed in ApJ style. See the instructions to authors
+%% for the journal to which you are submitting your paper to determine
+%% what keyword punctuation is appropriate.
+
+\keywords{circumstellar matter --- Stars: individual: ($\rm{\alpha}$ Ori) --- Stars: late-type --- Stars: massive --- supergiants --- Radio lines: stars}
+
+%% From the front matter, we move on to the body of the paper.
+%% In the first two sections, notice the use of the natbib \citep
+%% and \citet commands to identify citations.  The citations are
+%% tied to the reference list via symbolic KEYs. The KEY corresponds
+%% to the KEY in the \bibitem in the reference list below. We have
+%% chosen the first three characters of the first author's name plus
+%% the last two numeral of the year of publication as our KEY for
+%% each reference.
+
+
+%% Authors who wish to have the most important objects in their paper
+%% linked in the electronic edition to a data center may do so by tagging
+%% their objects with \objectname{} or \object{}.  Each macro takes the
+%% object name as its required argument. The optional, square-bracket 
+%% argument should be used in cases where the data center identification
+%% differs from what is to be printed in the paper.  The text appearing 
+%% in curly braces is what will appear in print in the published paper. 
+%% If the object name is recognized by the data centers, it will be linked
+%% in the electronic edition to the object data available at the data centers  
+%%
+%% Note that for sources with brackets in their names, e.g. [WEG2004] 14h-090,
+%% the brackets must be escaped with backslashes when used in the first
+%% square-bracket argument, for instance, \object[\[WEG2004\] 14h-090]{90}).
+%%  Otherwise, LaTeX will issue an error. 
+
+\section{Introduction}
+
+Graham?
+
+\section{Observations and Data Reduction}
+
+The data were acquired with the 15 element CARMA (Combined Array for Research in Millimeter-wave Astronomy) \citep{scot04} interferometer which is located at Cedar Flat in eastern California and consists of nine 6.1 m antennas and six 10.4 m antennas. Table \ref{tab:tab1} summarizes our various tracks of millimeter observations which span the period 2007 May - 2009 November. The observations consist of on source profiles of the $\rm{{}^{12}}$C$\rm{{}^{16}}$O (J=2-1) line in the C, D and E array configurations. The baseline length spans over 30-350 m (C array), 11-150 m (D array) and 8-66 m (E array) providing spatial resolutions of 0.8$\arcsec$, 1.8$\arcsec$ and 4$\arcsec$ respectively at 1.3 mm. 
+
+The receivers were tuned to the $\rm{{}^{12}}$C$\rm{{}^{16}}$O (J=2-1) line which has a rest frequency of 230.53 GHz (1.3 mm). The CARMA correlator takes measurements in three separate bands, each having an upper and lower sideband. One band was set to the low resolution 468 MHz   (with 15 channels) mode to observe continuum emission and was centered on the line. The other two bands were configured with 62 MHz and 31 MHz bandwidth across 63 channels (with a resolution of 1.3 km s$\rm{{}^{-1}}$ and 0.65 km s$\rm{{}^{-1}}$ respectively) and were also centered on the line. The line was measured in the upper sideband in the C and E array and in the lower sideband in the D array.
+
+Bandpass and phase calibration were performed using 3C120 and 0530+135. 0532+075 was used as a secondary phase calibrator to determine the quality of the phase transfer from the primary phase calibrator. The observing sequence was to integrate on the primary phase calibrator for $\sim$ 2.5 minutes, the target for $\sim$ 18 minutes, and the secondary phase calibrator for $\sim$ 2.5 minutes. The cycle was repeated for each track which lasted between 1.5 hours and 5 hours. Absolute flux calibration was carried out using the bandpass and phase calibrators in the continuously updated CARMA flux catalog.
+
+The raw data was initially Hanning smoothed within MIRIAD\footnote{Multichannel Image Reconstruction, Image Analysis and Display, \url{http://www.atnf.csiro.au/computing/software/miriad/}} and then exported into FITS format so that it could be analyzed with the CASA\footnote{Common Astronomy Software Applications, \url{http://casa.nrao.edu/}} data reduction package. All calibration and imaging was carried out within CASA. The image cubes  were multi-scale  CLEANed down to the 3$\rm{\sigma}$ threshold using natural weighting and were corrected for primary beam attenuation, unless otherwise stated below. The \textit{multiscale} algorithm \citep{rich08} within CASA was set to four unique scales; the largest corresponding to the the largest structures visible in individual channel maps. Each scale was approximately set to three times larger than the preceding scale. 
+\section{Results} 
+
+\subsection{Individual Configuration Image Cubes} \label{results1} % Link this label using \ref{results1}
+
+The spectrum for each individual configuration image cube (which are composed of all the individual configuration tracks listed in Table \ref{tab:tab1}) can be used to obtain information on the kinematics of both shells. The three corresponding spectra are shown in Figure \ref{fig:fig1} for both the high (0.65 km s${}^{-1}$) and low (1.3 km s${}^{-1}$) resolution data and were obtained by extracting all emission within a circular area centered on the source. The radii for these circular areas were 1$\arcsec$, 4$\arcsec$ and 8$\arcsec$ for the C, D and E array image cubes respectively. The velocity rest frames of the spectra are plotted with respect to the stellar rest frame using a radial velocity of 20.7 km s${}^{-1}$  derived by \citet{harp08}.
+
+The spectrum from the C array image cube has a total line width of 23 km s${}^{-1}$ and is dominated by three features; a blue wing, a red wing and a central emission feature at $\sim$ 0 km s${}^{-1}$. The blue wing of the CO emission profile extends to -10 km s${}^{-1}$ while the red wing extends to +13 km s${}^{-1}$. The spectra from the D and E array image cubes have an additional blue wing emission feature located between -10 km s${}^{-1}$ and -16 km s${}^{-1}$. This emission features appears to have been resolved out by the extended C antenna array which has a maximum scale of $\sim 4.5 \arcsec$ but is detected by the more compact configurations which are more sensitive to extended emission. The total line width of the D and E array spectra are both 29 km s${}^{-1}$. In all three spectra the high and low resolution data match verifying the existence of the main emission features in these line profiles.
+
+An additional spatially unresolved source is detected in the D configuration image cube and has been previously documented by \citet{harp09}. The component is present between $\sim$ -5 km s${}^{-1}$ and +6 km s${}^{-1}$ and is located $\sim$ 5$\arcsec$ S-W of $\alpha$ Ori. Its peak emission lies at $\sim$ 0 km s${}^{-1}$ and is approximately equal to 60$\%$ of the source peak emission. The corresponding channel maps in the E configuration image cube show extended emission out to ~8$\arcsec$ in the same S-W direction as shown in Figure \ref{fig:fig2}, but the source does not appear to be separate from $\alpha$ Ori. Curiously this second source does not appear in any of the C configuration image cube channel maps. 
+
+
+\subsection{Multi-Configuration Image Cube} \label{results2} 
+
+Figure \ref{fig:fig3} shows a subset of channel maps from the combined image cube. The first two channel maps show the continuum emission with no extended features apparent. Between -16.7 km s${}^{-1}$ and -10.3 km s${}^{-1}$ we see evidence for the development of a classical shell signature. We first sample the highest velocity shell components where the emission is relatively compact (i.e. between -16.7 km s${}^{-1}$ and -12.9 km s${}^{-1}$) and then sample lower velocity components where the shell becomes a faint ring (i.e. between -11.6 km s${}^{-1}$ and -10.3 km s${}^{-1}$). These rings then either disappear into the noise of the channel maps or out of our field of view. Remarkable, this shell like structure is not seen in the corresponding red-shifted channel maps. All other channel maps out to a velocity of +13 km s${}^{-1}$ show some form of compact emission as can be seen in the final two channel maps between -9 km s${}^{-1}$ and -7.8 km s${}^{-1}$. This emission extends out to an average distance of $\sim$5$\arcsec$ but it is difficult to see evidence for shell development. 
+
+The spectra in Figure \ref{fig:fig4} are taken from the combined image cube using circular extraction areas ranging in radius from 1$\arcsec$ to 10$\arcsec$. All spectra have a total linewidth of 29 km s${}^{-1}$ which is in close agreement with previous single dish observations of the line \citep{knap80, hugg86, hugg94}. The most striking feature of these spectra is the change in appearance of the blueshifted emission component located between -16 km s${}^{-1}$ and -10 km s${}^{-1}$.  At small extraction radii, where we sample the compact emission, this emission feature is weak in comparison to the rest of the line. However, as we take larger extraction radii, we begin to sample more and more of the extended emission and this emission feature gets stronger until it eventually becomes the dominant component of the line. 
+
+\section{Discussion and Conclusions}
+
+The two distinct velocity components seen by \cite{bern79} in CO absorption against the stellar spectrum at 4.6 $\mu$m have both been detected at 230 GHz for the first time. The first velocity component known as S1 has an expansion velocity of 10 km s${}^{-1}$ \citep{bern79} and is detected in our C configuration image cube. Here, the CO spectrum shows a blueshifted expansion velocity of 10 km s${}^{-1}$ in agreement with \cite{bern79} and has a larger redshifted expansion velocity of 13 km s${}^{-1}$. The extended CARMA C configuration is not sensitive to emission $\gtrsim$ 4.5$\arcsec$ and provides little detail on the S2 velocity component which has an expansion velocity of 17 km s${}^{-1}$ \citep{bern79} and is known to be more extended than the S1 component \citep{bern79, hugg86}. An extreme blue wing of the CO spectrum appears in the D and E configuration image cubes at an expansion velocity of 16 km s${}^{-1}$. These CARMA configurations are more sensitive to the extended S2 emission and as the expansion velocity of this blue wing is in close agreement with that reported by \cite{bern79}, we identify this extreme blue wing with the S2 velocity component. We do not detect a redshifted S2 velocity component in any of our spectra. 
+
+The spatial scales of the two shells (S1 and S2) have not been directly determined from either the CO infrared absorption spectra of \cite{bern79} or previous single dish radio observations \citep{knap80, hugg86, hugg94}. Our combined configuration image cube has sufficient spatial resolution and signal-to-noise to make direct estimates for both shell sizes. The S1 shell extends out to an average distance of $\sim$ 4.5$\arcsec$. It is more extended in the S-W direction due mainly to the presence of the second emission feature in the D configuration data. Our spatial resolution of 0.8$\arcsec$ is not sufficient to determine whether the S1 shell is discrete. It is possible that this shell is an extension of the current wind phase seen in ultraviolet spectra \citep{carp97} and cm-radio continuum interferometry \citep{lim98, harp01} and we conclude that it's inner radius is $<$ 0.8$\arcsec$. The S2 shell extends out to a radius of at least 12$\arcsec$ which is approximately the maximum distance we can sample out to with sufficient accuracy in the combined image. Our limited field of view means that we cannot conclude if the spatial scale of the S2 shell extends beyond 12$\arcsec$. 
+
+The shape of our combined image cube spectra for circular extraction area with radii 6$\arcsec$ or greater are in reasonable agreement with previous high signal to noise single dish CO(J=2-1) spectra. Our total line width of 29 km s${}^{-1}$ is in good agreement with \cite{hugg86} and \cite{hugg94} who report line widths of 28.6 km s${}^{-1}$ and 30 km s${}^{-1}$ respectively. The blue wing in both of these spectra are the dominant emission features of the line and this is also true in our combined spectra at extraction areas $\gtrsim$ 6$\arcsec$. The IRAM 30m telescope in \cite{hugg94} has a beam size of only 12$\arcsec$ at 230 GHz and yet produces a similar line profile shape to \cite{hugg86} who uses a larger beam size of $\sim$30$\arcsec$. From this, one would expect that the majority of the blue wing emission is compact. However, our combined spectra show a continuous increase in the blue wing emission as we take larger extraction regions and as we can see a faint ring structure out to our field of view we believe the S2 shell is more extended than suggested by these previous single dish observations.
+
+\acknowledgments
+
+Support for CARMA construction was derived from the states of California, Illinois, and
+Maryland, the James S. McDonnell Foundation, the Gordon and Betty Moore Foundation, the
+Kenneth T. and Eileen L. Norris Foundation, the University of Chicago, the Associates of the
+California Institute of Technology, and the National Science Foundation. Ongoing CARMA
+development and operations are supported by the National Science Foundation under a
+cooperative agreement, and by the CARMA partner universities.
+
+{\it Facilities:} \facility{CARMA}
+
+\begin{thebibliography}{}
+\bibitem[Bernat et al.(1979)]{bern79} Bernat, A. P., Hall, N. B., Hinkle, K. H., \& Ridgeway, S. T. 1979, \apj, 233, L135
+\bibitem[Carpenter et al.(1997)]{carp97} Carpenter, K. G., \& Robinson, R. D. 1997, \apj, 479, 970
+\bibitem[Harper et al.(2001)]{harp01} Harper, G. M., Brown, A., \& Lim, J. 2001, \apj, 551, 1073
+\bibitem[Harper et al.(2008)]{harp08} Harper, G. M., Brown, A., \& Guinan, E. F. 2008, \aj, 135, 1430
+\bibitem[Harper et al.(2009)]{harp09} Harper, G. M., Carpenter, K. G., Ryde, N., et al. 2009, AIP Conf. Ser., 1094, 868
+\bibitem[Huggins (1986)]{hugg86} Huggins, P. J. 1986, \apj, 313, 400
+\bibitem[Huggins et al.(1994)]{hugg94} Huggins, P. J., Bachiller, R., Cox, P., \& Forveille, T. 1994, \apj, 424, L127
+\bibitem[Knapp et al.(1980)]{knap80} Knapp, G. R., Philips, T. G., \& Huggins, P. J. 1980, \apj, 242, L25
+\bibitem[Lim et al. (1998)]{lim98} Lim, J., Carilli, C., White, S. M., Beasley, A. J., & Marson, R. G. 1998, Nature, 392, 575
+\bibitem[Rich et al.(2008)]{rich08} Rich, J. W., de Blok, W. J. G., Cornwell, T. J. et al. 2008, \aj, 136, 2897
+\bibitem[Scott et al.(2004)]{scot04} Scott, S. L., Amarnath, N.S., Kraybill, J. C. et al. 2004, in ASP Conf. Ser. 314, ADASS XIII, ed. F. Ochsenbein, M. Allen, & D. Egret (San Francisco, CA: ASP), 768
+\end{thebibliography}
+
+\clearpage
+
+\begin{figure}
+%\centering
+\epsscale{.70}
+\plotone{f1.eps}
+\caption{Spectra from the image cubes for each array configuration. The bottom panel shows the absence of the blueshifted emission component between -10 km s${}^{-1}$ and -16 km s${}^{-1}$ in the C configuration image cube spectrum.\label{fig1}}
+\label{fig:fig1}
+\end{figure}
+
+\clearpage
+\begin{figure}
+\mbox{
+          \includegraphics[trim=0pt 0pt 30pt 25pt, clip, width=9.0cm, height=6.0cm]{apj_d_moment.eps}
+          \includegraphics[trim=3pt 0pt 35pt 16pt, clip, width=8.5cm, height=6.0cm]{apj_e_moment.eps}
+         }
+\caption{\textit{Left:} Integrated intensity image of the D configuration channel maps that contain the discrete second source. Contours for the integrated intensity are 1$\sigma$, 1.5$\sigma$ and 3$\sigma$ (1$\sigma$ = 1.46 Jy beam${}^{-1}$ km s${}^{-1}$). \textit{Right:} Integrated intensity image of the corresponding E configuration channel maps. Contours for the integrated intensity are again 1$\sigma$, 1.5$\sigma$ and 3$\sigma$ (1$\sigma$ = 2.94 Jy beam${}^{-1}$ km s${}^{-1}$). The size of the restoring beam is shown in white in the bottom left corner. Images have not been corrected for the primary beam response.}
+\label{fig:fig2}
+\end{figure}
+
+
+\clearpage
+
+\begin{figure}[hbt!]
+%\centering
+\mbox{
+          \includegraphics[]{f2.eps}
+          \includegraphics[]{f3.eps}
+          }
+\\
+\mbox{
+          \includegraphics[]{f4.eps}
+          \includegraphics[]{f5.eps}
+          }
+\\
+\mbox{
+          \includegraphics[]{f6.eps}
+          \includegraphics[]{f7.eps}
+         }
+\\
+\mbox{
+          \includegraphics[]{f8.eps}
+          \includegraphics[]{f9.eps}
+         }
+\\
+\mbox{
+          \includegraphics[]{f10.eps}
+          \includegraphics[]{f11.eps}
+         }
+\caption[]{10 channel maps from the combined configuration non-primary beam corrected image cube. The color scale has been normalized to the maximum and minimum value of each channel and is a function of the square root of the flux to emphasize the fainter emission.}
+\label{fig:fig3}
+\end{figure}
+
+
+\clearpage
+
+\begin{figure}
+\epsscale{0.7}
+\plotone{f13.eps}
+\caption{Spectral profiles of the combined image cube for circular extraction areas of radius 1$\arcsec$, 2$\arcsec$, 4$\arcsec$, 6$\arcsec$, 8$\arcsec$ and 10$\arcsec$.}
+\label{fig:fig4}
+\end{figure}
+
+\clearpage
+
+\begin{deluxetable}{ccccccc}
+\tabletypesize{\scriptsize}
+\tablecaption{CARMA Observations}
+\tablewidth{0pt}
+\tablehead{
+\colhead{Observation} & \colhead{Configuration} & \colhead{Time on Source} & \colhead{Flux} 	& \colhead{Phase} & \colhead{Image Cube\tablenotemark{a}}\\
+\colhead{Date}  	      & 		   	  & \colhead{(hr)} 		  & \colhead{Calibrator} & \colhead{Calibrators} & \colhead{Dynamic Range\tablenotemark{b}}}
+}
+\startdata
+2007 May 11& D & 1.2 & 0530+135 & 0530+135, 0532+075 & 11.00 \\
+2007 Jun 18 & D & 0.9 & 0530+135 & 0530+135, 0532+075 &  13.01 \\
+2007 Jun 21 & D & 3.0 & 0530+135 & 0530+135, 0532+075 &  12.98 \\
+2007 Jun 24 & D & 2.1 & 0530+135 & 0530+135, 0532+075 &  13.75 \\
+2007 Jun 25 & D & 2.4 & 0530+135 & 0530+135, 0532+075 &  15.66 \\
+2009 Jul 07 & E & 3.2 & 3C120 & 3C120, 0532+075 & 15.04 \\
+2009 Nov 05 & C & 1.2 & 3C120 & 3C120, 0532+075 & 10.94 \\
+2009 Nov 09 & C & 3.0 & 3C120 & 3C120, 0532+075 & 16.81 \\
+2009 Nov 15 & C & 1.0 & 3C120 & 3C120, 0532+075 & 11.35 \\
+2009 Nov 16 & C & 3.2 & 3C120 & 3C120, 0532+075 & 18.47  \\
+All & C & 8.4 & \nodata & \nodata &   29.28 \\
+All & D & 9.5 & \nodata & \nodata &   22.38 \\
+All & Combined & 21.2 & \nodata & \nodata &   31.72 \\
+\enddata
+\tablenotetext{a}{Channel width of 1.3 km s$\rm{{}^{-1}}$ and not corrected for primary beam attenuation.}
+\tablenotetext{b}{The peak emmision of the image cube divided by the root mean square of the residual image.}
+\label{tab:tab1}
+\end{deluxetable}
+
+
+\end{document}
+

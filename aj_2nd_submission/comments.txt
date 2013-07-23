@@ -1,0 +1,37 @@
+Cover letter explaining the changes made in response to the referee's comments
+------------------------------------------------------------------------------
+
+########################################################
+Referee: In the abstract, the sentence about "defined outer edge for the S2 flow" leaves one slightly confused that there is an angular edge to the emission - which there isn't - as opposed to a sharp cutoff in flow velocity. Rewording would help.
+
+Author:
+########################################################
+
+
+########################################################
+Referee: The choice of cutting peak emission of the display in Figure 3 at 0.2 Jy/beam leaves one curious as to what the brighter emission looked like. The channel maps displayed only faintly capture a shell or ring structure in the S2 flow. If another display is not shown, the authors should at least comment on the distribution of the stronger emission.
+
+Author: I have created a file showing the 
+########################################################
+
+
+########################################################
+Referee: The caption for Figure 6 appears to be switched (?) from the figures themselves and the text - S2 on top, S1 on bottom. It is not clear that these figures and the analysis are making the desired point. The analysis for Figure 5 is clear and convincing enough and determines a radius for the S2 outflow. Figure 6 (left panels) appear to show a surface brightness distribution vs. radius that is about the same for both S1 and S2. It is also a little confusing as to why the S1 display, which is the weaker component, has the higher Jy/beam. Better motivation and explanation of this figure and the accompanying analysis would help.
+
+Author: We have switched the figures (i.e. bottom row is now top row & vica versa) so that the caption is now correct. We have also updated the text to account for this. 
+Have changed a 'rho =' to a 'rho proportional to' in the text (page 6: column 2, 6 lines down).
+The original y-axis in the left column figures was surface brightness integrated over the selected channels per flow. There were much more channels integrated for S1, than there was for S2, thus the confusion. The surface brightness has now been normalised in both figures to avoid this confusion.   
+########################################################
+
+
+########################################################
+Referee: The rationale for including the K I data (Section 4.2), which seems largely to confirm prior results, was not entirely clear. I would suggest motivating this better or removing it.
+
+Author: We have decided to motivate the inclusion of the K I data section better.
+########################################################
+
+########################################################
+Referee: Ditto for the SOFIA results in the appendix. It's not clear that this adds much to the very nice results already presented.
+
+Author: We have decided to omit our SOFIA-GREAT results from this paper and present them in at a later stage.
+########################################################

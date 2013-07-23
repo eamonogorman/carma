@@ -1,0 +1,12 @@
+taskname           = "exportfits"
+imagename          =  "/home/Eamon/carma/cdecombine/image/cde.64.final.image"
+fitsimage          =  "cde.64.fits"
+velocity           =  False
+optical            =  False
+bitpix             =  -32
+minpix             =  0
+maxpix             =  -1
+overwrite          =  False
+dropstokes         =  False
+stokeslast         =  True
+#exportfits(imagename="/home/Eamon/carma/cdecombine/image/cde.64.final.image",fitsimage="cde.64.fits",velocity=False,optical=False,bitpix=-32,minpix=0,maxpix=-1,overwrite=False,dropstokes=False,stokeslast=True)

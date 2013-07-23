@@ -1,0 +1,9 @@
+taskname           = "imstat"
+imagename          =  "/home/eamon/backup_27_01_2012/carma/cdecombine/apj_final/cde.64.final_pb.image.fits"
+region             =  ""
+box                =  ""
+chans              =  "41"
+stokes             =  ""
+listit             =  True
+verbose            =  True
+#imstat(imagename="/home/eamon/backup_27_01_2012/carma/cdecombine/apj_final/cde.64.final_pb.image.fits",region="",box="",chans="41",stokes="",listit=True,verbose=True)

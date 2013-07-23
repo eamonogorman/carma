@@ -1,0 +1,37 @@
+########## N. Smith Values (2009) #############
+A Ori:
+Radius = 57 mas /2 = 28.5 mas 
+Radius = 1200*R_sun =1200*6.955d+5 km = 8.346e+08 km 
+
+=> 1'' =    2.9284211e+10 km 
+
+
+S2 shell:
+
+size = 17 arcsec = 4.9783158e+11 km
+mean constant vel = 14.3 km s-1
+Age=   3.4813397e+10 s = 1103 yr
+
+S1 shell:
+size = 4 arcsec = 1.17137e+11 km
+mean constant vel = 9.8 km s-1
+Age= 1.19527e+10 s = 380 yr
+
+########## G. Harper Values (2008, VLA Hipp)#############
+A Ori:
+Radius = 45 mas /2 = 22.5 mas 
+Radius = 950*R_sun =950*6.955d+5 km = 6.60725e+08 km 
+
+=> 1'' =    2.9365555e+10 km 
+
+
+S2 shell:
+
+size = 17 arcsec = 4.99214e+11 km
+mean constant vel = 14.3 km s-1
+Age=   3.49101e+10 s = 1106.23 yr
+
+S1 shell:
+size = 4 arcsec = 1.17462e+11 km
+mean constant vel = 9.8 km s-1
+Age= 1.19859e+10 s = 380 yr

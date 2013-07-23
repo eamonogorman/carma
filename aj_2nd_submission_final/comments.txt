@@ -1,0 +1,38 @@
+Cover letter explaining the changes made in response to the referee's comments
+------------------------------------------------------------------------------
+
+Note: All major changes made to the paper since the previous version (apart from the K I section which has been expanded on since the previous submission) have been left in bold font for the convenience of the referee/editor (see ms_bold.pdf). The unbolded version is labelled ms.pdf. We thank the referee for their comments.
+
+########################################################
+Referee: In the abstract, the sentence about "defined outer edge for the S2 flow" leaves one slightly confused that there is an angular edge to the emission - which there isn't - as opposed to a sharp cutoff in flow velocity. Rewording would help.
+
+Response: This line in the abstract now reads as follows: "We image both S1 and S2 in the multi-configuration maps and see a gradual change in the angular size of the emission in the high absolute velocity maps".
+########################################################
+
+
+########################################################
+Referee: The choice of cutting peak emission of the display in Figure 3 at 0.2 Jy/beam leaves one curious as to what the brighter emission looked like. The channel maps displayed only faintly capture a shell or ring structure in the S2 flow. If another display is not shown, the authors should at least comment on the distribution of the stronger emission.
+
+Response: I have created a file (attached) showing how these channel maps look without any cut in the emission. The distribution of the strong emission is located very close to the star and thus when this emission is cut, we make the S1 and S2 flows more visible. Cutting the emission does not change the structure of the inner s1 emission. I have now changed the negative contours to green so that they can be seen on the dark background.
+########################################################
+
+
+########################################################
+Referee: The caption for Figure 6 appears to be switched (?) from the figures themselves and the text - S2 on top, S1 on bottom. It is not clear that these figures and the analysis are making the desired point. The analysis for Figure 5 is clear and convincing enough and determines a radius for the S2 outflow. Figure 6 (left panels) appear to show a surface brightness distribution vs. radius that is about the same for both S1 and S2. It is also a little confusing as to why the S1 display, which is the weaker component, has the higher Jy/beam. Better motivation and explanation of this figure and the accompanying analysis would help.
+
+Response: The captions now read correctly. 
+The original y-axis in the left column figures was surface brightness integrated over the selected channels per flow. There were much more channels integrated over for S1, than there was for S2, thus the confusion. The surface brightness has now been normalised in both figures to avoid this confusion. We have also expanded out the x-axis (i.e. projected radius) to show that the emission fall-off changes at large projected radii agreeing with what we see in the channel maps. We have also added error bars. We have expanded on the accompanying text to explain these figures better.
+########################################################
+
+
+########################################################
+Referee: The rationale for including the K I data (Section 4.2), which seems largely to confirm prior results, was not entirely clear. I would suggest motivating this better or removing it.
+
+Response: The very high spectral and signal-to-noise K I profile is included for two main reasons. First to link our current epochs to those in the 1970/80s, second and importantly, to link the dynamics of the K I to the CO features. We have expanded this section a little to give the directly measured (not curve of growth) S2 turbulence and column densities. These allow us to show the dynamic connection between the CO and K I absorbing columns and further to allow us to suggest that the 55arcsec feature in Plez and Lambert is not the S2 flow.
+########################################################
+
+########################################################
+Referee: Ditto for the SOFIA results in the appendix. It's not clear that this adds much to the very nice results already presented.
+
+Response: We now discuss the importance of the high-J SOFIA-GREAT line profile at numerous times throughout the paper and we feel that it adds to our overall result. This line has never been observed before for Betelgeuse and it shows that the higher CO J-lines only trace the inner, slower, higher excitation S1 flow: an import fact to consider for future ALMA projects.
+########################################################

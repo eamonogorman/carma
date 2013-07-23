@@ -1,0 +1,23 @@
+@Book{2000fta..book.....B,
+author = { Bracewell, Ronald N. },
+title = { The Fourier transform and its applications / Ronald N. Bracewell },
+edition = { 3rd ed. },
+isbn = { 007007013 },
+publisher = { McGraw-Hill, New York : },
+pages = { xvi, 444 p. : },
+year = { 2000 },
+type = { Book },
+language = { English },
+subjects = { Fourier transformations.; Transformations (Mathematics); Harmonic analysis. },
+life-dates = { 2000 -  },
+catalogue-url = { http://nla.gov.au/nla.cat-vn830194 },
+}
+@BOOK{2000fta..book.....B,
+   author = {{Bracewell}, R.~N.},
+    title = "{The Fourier transform and its applications}",
+booktitle = {The Fourier transform and its applications / Ronald N.~Bracewell.~Boston : McGraw Hill, c2000.~(McGraw-Hill series in electrical and computer engineering.~Circuits and systems)},
+     year = 2000,
+   editor = "{Bracewell, R.~N.}",
+   adsurl = {http://adsabs.harvard.edu/abs/2000fta..book.....B},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
